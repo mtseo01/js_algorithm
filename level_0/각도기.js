@@ -27,3 +27,8 @@ function solution(angle) {
 
   return answer;
 }
+
+// 재밌는 풀이
+function solution(angle) {
+  return [0, 90, 91, 180].filter((x) => angle >= x).length;
+}
