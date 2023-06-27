@@ -4,3 +4,10 @@ function solution(my_string) {
   const answer = my_string.split('').reverse().join('');
   return answer;
 }
+
+function solution2(my_string) {
+  const answer = [...my_string].reverse().join('');
+  return answer;
+}
+
+console.log(solution2('Hello'));
