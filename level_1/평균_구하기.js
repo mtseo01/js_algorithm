@@ -11,3 +11,7 @@ function solution(arr) {
   const answer = res / arr.length;
   return answer;
 }
+
+function solution(array) {
+  return array.reduce((a, b) => a + b) / array.length;
+}
