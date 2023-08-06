@@ -10,3 +10,10 @@ function solution(s1, s2) {
   const answer = s1.filter((item) => s2.includes(item)).length;
   return answer;
 }
+
+function solution(s1, s2) {
+  const concat = [...s1, ...s2];
+  const setConcat = Array.from(new Set(concat));
+
+  return concat.length - setConcat.length;
+}
