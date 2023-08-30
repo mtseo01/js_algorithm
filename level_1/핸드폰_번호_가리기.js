@@ -12,3 +12,8 @@ function solution(phone_number) {
     .join('');
   return answer;
 }
+
+// 정규식으로 해결
+function solution2(s) {
+  return s.replace(/\d(?=\d{4})/g, '*');
+}
