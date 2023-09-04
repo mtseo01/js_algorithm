@@ -14,3 +14,7 @@ function solution(s) {
 
   return answer;
 }
+
+function solution2(s) {
+  return s.split('').sort().reverse().join('');
+}
