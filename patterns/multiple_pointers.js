@@ -21,7 +21,7 @@ function sumZero2(arr) {
     if (sum === 0) {
       return [arr[left], arr[right]];
     } else if (sum > 0) {
-      rigth--;
+      right--;
     } else {
       left++;
     }
